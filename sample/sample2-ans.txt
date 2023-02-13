@@ -1,0 +1,160 @@
+Line 0: Program
+Line 1: ActorDeclaration
+Line 1: Identifier Sender
+Line 1: Identifier Receiver
+Line 3: VarDeclaration
+Line 3: Identifier medium
+Line 4: VarDeclaration
+Line 4: Identifier rec
+Line 5: VarDeclaration
+Line 5: Identifier rec
+Line 9: VarDeclaration
+Line 9: Identifier receivedBit
+Line 10: VarDeclaration
+Line 10: Identifier rec
+Line 11: VarDeclaration
+Line 11: Identifier m
+Line 14: InitHandlerDeclaration
+Line 14: Identifier initial
+Line 14: VarDeclaration
+Line 14: Identifier a
+Line 15: VarDeclaration
+Line 15: Identifier hasSucceeded
+Line 16: VarDeclaration
+Line 16: Identifier hasSucceeded
+Line 17: AssignStmt
+Line 17: Identifier a
+Line 17: BinaryExpression sub
+Line 17: IntValue 1
+Line 17: UnaryExpression minus
+Line 17: IntValue 2
+Line 18: AssignStmt
+Line 18: Identifier d
+Line 18: BinaryExpression sub
+Line 18: BinaryExpression add
+Line 18: Identifier a
+Line 18: BinaryExpression mult
+Line 18: Identifier b
+Line 18: Identifier zz
+Line 18: BinaryExpression mult
+Line 18: Identifier dd
+Line 18: IntValue 5
+Line 19: MsgHandlerCall
+Line 19: Identifier medium
+Line 19: Identifier pass
+Line 19: Identifier sendBit
+Line 20: MsgHandlerCall
+Line 20: Self
+Line 20: Identifier sendMsg
+Line 20: IntValue 1
+Line 20: IntValue 2
+Line 23: MsgHandlerDeclaration
+Line 23: Identifier sendMeseg
+Line 25: ConditionalStmt
+Line 25: BinaryExpression eq
+Line 25: Identifier hasSucceeded
+Line 25: Identifier a
+Line 26: ConditionalStmt
+Line 26: BinaryExpression eq
+Line 26: Identifier sendBit
+Line 26: Identifier b
+Line 27: AssignStmt
+Line 27: Identifier sendBit
+Line 27: IntValue 1
+Line 30: AssignStmt
+Line 30: Identifier sendBit
+Line 30: IntValue 2
+Line 34: MsgHandlerCall
+Line 34: Identifier selfffff
+Line 34: Identifier sendMsg
+Line 40: ActorDeclaration
+Line 40: Identifier Receiver
+Line 40: Identifier Sender
+Line 42: VarDeclaration
+Line 42: Identifier medium
+Line 43: VarDeclaration
+Line 43: Identifier _sender
+Line 49: MsgHandlerDeclaration
+Line 49: Identifier sendMsg
+Line 50: VarDeclaration
+Line 50: Identifier bah
+Line 51: ConditionalStmt
+Line 51: BinaryExpression eq
+Line 51: Identifier bah
+Line 51: Identifier bah
+Line 52: PrintStmt
+Line 52: StringValue "yaaaaay"
+Line 56: MsgHandlerDeclaration
+Line 56: Identifier receiveMsg
+Line 56: VarDeclaration
+Line 56: Identifier msgBit
+Line 57: AssignStmt
+Line 57: Identifier messageBit
+Line 57: Identifier msgBit
+Line 62: ActorDeclaration
+Line 62: Identifier Medium
+Line 64: VarDeclaration
+Line 64: Identifier receiver
+Line 65: VarDeclaration
+Line 65: Identifier _sender
+Line 69: VarDeclaration
+Line 69: Identifier passMessage
+Line 70: VarDeclaration
+Line 70: Identifier messageBit
+Line 73: InitHandlerDeclaration
+Line 73: Identifier initial
+Line 74: VarDeclaration
+Line 74: Identifier messageBit
+Line 75: AssignStmt
+Line 75: Identifier passMessage
+Line 75: Identifier true
+Line 76: PrintStmt
+Line 76: BinaryExpression eq
+Line 76: Identifier a
+Line 76: Identifier b
+Line 79: MsgHandlerDeclaration
+Line 79: Identifier pass
+Line 79: VarDeclaration
+Line 79: Identifier msgBit
+Line 80: ConditionalStmt
+Line 80: BinaryExpression eq
+Line 80: IntValue 1
+Line 80: IntValue 2
+Line 82: ConditionalStmt
+Line 82: BinaryExpression eq
+Line 82: Identifier passMessage
+Line 82: Identifier true
+Line 83: MsgHandlerCall
+Line 83: Identifier receiver
+Line 83: Identifier receiveMsg
+Line 83: Identifier msgBit
+Line 91: ActorDeclaration
+Line 91: Identifier A
+Line 96: ActorDeclaration
+Line 96: Identifier A
+Line 96: Identifier B
+Line 101: ActorDeclaration
+Line 101: Identifier B
+Line 101: Identifier A
+Line 106: MainDeclaration
+Line 107: ActorInstantiation
+Line 107: Identifier medium
+Line 107: Identifier receiver
+Line 108: ActorInstantiation
+Line 108: Identifier receiver
+Line 108: Identifier _sender
+Line 109: ActorInstantiation
+Line 109: Identifier medium
+Line 109: Identifier _sender
+Line 109: BinaryExpression add
+Line 109: IntValue 2
+Line 109: IntValue 3
+Line 109: BinaryExpression sub
+Line 109: IntValue 2
+Line 109: UnaryExpression minus
+Line 109: Identifier a
+Line 109: BinaryExpression eq
+Line 109: BinaryExpression eq
+Line 109: Identifier f
+Line 109: Identifier g
+Line 109: Identifier h

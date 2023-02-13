@@ -1,0 +1,75 @@
+Line 0: Program
+Line 1: ActorDeclaration
+Line 1: Identifier Calculator
+Line 5: VarDeclaration
+Line 5: Identifier result
+Line 8: InitHandlerDeclaration
+Line 8: Identifier initial
+Line 8: VarDeclaration
+Line 8: Identifier balance
+Line 10: AssignStmt
+Line 10: Identifier result
+Line 10: IntValue 0
+Line 13: MsgHandlerDeclaration
+Line 13: Identifier sum
+Line 13: VarDeclaration
+Line 13: Identifier a
+Line 13: VarDeclaration
+Line 13: Identifier b
+Line 14: AssignStmt
+Line 14: Identifier result
+Line 14: BinaryExpression add
+Line 14: Identifier a
+Line 14: Identifier b
+Line 15: PrintStmt
+Line 15: Identifier result
+Line 22: ActorDeclaration
+Line 22: Identifier User
+Line 24: VarDeclaration
+Line 24: Identifier c
+Line 28: VarDeclaration
+Line 28: Identifier name
+Line 29: VarDeclaration
+Line 29: Identifier numOfRequests
+Line 32: InitHandlerDeclaration
+Line 32: Identifier initial
+Line 32: VarDeclaration
+Line 32: Identifier a
+Line 32: VarDeclaration
+Line 32: Identifier b
+Line 34: AssignStmt
+Line 34: Identifier numOfRequests
+Line 34: IntValue 0
+Line 35: MsgHandlerCall
+Line 35: Self
+Line 35: Identifier get_sum
+Line 35: Identifier a
+Line 35: Identifier b
+Line 38: MsgHandlerDeclaration
+Line 38: Identifier get_sum
+Line 38: VarDeclaration
+Line 38: Identifier a
+Line 38: VarDeclaration
+Line 38: Identifier b
+Line 39: ConditionalStmt
+Line 39: BinaryExpression eq
+Line 39: Identifier numOfRequests
+Line 39: IntValue 0
+Line 40: MsgHandlerCall
+Line 40: Identifier c
+Line 40: Identifier sum
+Line 40: Identifier a
+Line 40: Identifier b
+Line 41: AssignStmt
+Line 41: Identifier numOfRequests
+Line 41: BinaryExpression add
+Line 41: Identifier numOfRequests
+Line 41: IntValue 1
+Line 44: PrintStmt
+Line 44: StringValue "Can't send new request"
+Line 51: MainDeclaration
+Line 52: ActorInstantiation
+Line 53: ActorInstantiation
+Line 53: Identifier C
+Line 53: IntValue 2
+Line 53: IntValue 3
